@@ -1,0 +1,33 @@
+﻿{
+  {
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.0",
+    "version": "1.0.0",
+    "id": "a56c727e-5c9f-447c-af07-729d51066f38",
+    "packageName": "net.azurewebsites.EnigmaBot.",
+    "developer": {
+      "name": "Bouvet",
+      "websiteUrl": "https://website.com/",
+      "privacyUrl": "https://website.com/privacy",
+      "termsOfUseUrl": "https://website.com/app-tos"
+    },
+    "name": {
+      "short": "EnigmaBot"
+    },
+    "description": {
+      "short": "A EnigmaBot",
+      "full": "An enigma Chuck Norris Bot."
+    },
+    "icons": {
+      "outline": "EnigmaBot20.png",
+      "color": "EnigmaBot96.png"
+    },
+    "accentColor": "#FF0000",
+    "bots": [
+      {
+        "botId": "a56c727e-5c9f-447c-af07-729d51066f38",
+        "needsChannelSelector": "false",
+        "scopes": [ "personal", "team" ]
+      }
+    ]
+  }
