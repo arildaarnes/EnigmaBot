@@ -31,7 +31,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
                 isTyping.Type = ActivityTypes.Typing;
                 await connector.Conversations.ReplyToActivityAsync(isTyping);
 
-                // DEMO: I've added this for demonstration purposes, so we have time to see the "Is Typing" integration in the UI. Else the bot is too quick for us :)
+                // DEMO: I've added   this for demonstration purposes, so we have time to see the "Is Typing" integration in the UI. Else the bot is too quick for us :)
                 Thread.Sleep(2500);
             }
 
